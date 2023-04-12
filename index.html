@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="Icon" href="./Images/Background Image.png">
+    <script defer src="./app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <title>Flavor Festival</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1> Flavor Festival</h1>
+        </div>
+        <div>
+            <input placeholder="Search Recipe" type="text" name="" id="userValue">
+            <button disabled="disabled" id="search-btn">Search</button>
+        </div>
+    </header>
+    <main>
+        <section id="sec-1">
+            <h2 class="headings ">Results</h2>
+            <div id="recipe-container">
+            <ul id="recipeList"></ul>
+            </div>
+
+        </section>
+        <section id="sec-2">
+            <h2 class="headings sec-2-heading">Recipe Details</h2>
+            <div id="details-container"></div>
+        </section>
+    </main>
+</body>
+</html>
