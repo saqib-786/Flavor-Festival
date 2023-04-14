@@ -59,6 +59,12 @@ body{
     letter-spacing: 1px;
  }
 
+ header button:disabled{
+   background-color: grey;
+   cursor: not-allowed;
+   
+ }
+
  header input{
     width: 250px;
     height: 35px;
@@ -161,11 +167,16 @@ body{
    }
    #sec-1{
       width: 100%;
+      height: 50vh;
    }
    #sec-2{
       width: 100%;
+      height: 50vh;
    }
    #details-container{
-      border: 1px solid #212121;
+      /* border: 1px solid #212121; */
+   }
+   body{
+      background-size: 80% 60%;
    }
 }
